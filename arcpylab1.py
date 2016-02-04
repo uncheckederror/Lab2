@@ -55,12 +55,13 @@ for cur_FIPS in table_cursor:
 del table_cursor
 
 #Sort and print county population values
-tosort = dict.keys()
+tosort = countypopdict.keys()
 tosort = tosort.sort()
 tosort = tosort.reverse()
 
 print "A list of top 10 most populated county's in Washington:"
 i = 0
 while i < 10:
-    print countypopdict[tosort[i]] + ": " + str(tosort[i])
+    tosort.
+    print countypopdict.get(key) + ": " + str(tosort[i])
     i += 1
